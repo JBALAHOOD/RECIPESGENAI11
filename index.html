@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>AI Recipe Finder | Turn Your Ingredients Into Amazing Meals</title>
+    <meta name="description" content="Never wonder what to cook again! AI Recipe Finder uses Google's Gemini AI to create delicious recipes from ingredients you already have. Get personalized recipes for vegetarian, vegan, keto, and more dietary preferences instantly." />
+    <meta name="keywords" content="ai recipe finder, recipe generator, cooking with ingredients, what to cook, gemini ai recipes, meal planner, vegetarian recipes, vegan recipes, keto recipes, gluten free recipes, cooking assistant, kitchen helper, ingredient based recipes" />
+    <meta name="author" content="AI Recipe Finder" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <link rel="canonical" href="https://ai-recipe-finder.com" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ai-recipe-finder.com" />
+    <meta property="og:title" content="AI Recipe Finder | Turn Your Ingredients Into Amazing Meals" />
+    <meta property="og:description" content="Transform your kitchen ingredients into delicious recipes with AI. Get personalized cooking suggestions for any dietary preference - vegetarian, vegan, keto, and more!" />
+    <meta property="og:image" content="https://ai-recipe-finder.com/social-preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="AI Recipe Finder" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://ai-recipe-finder.com" />
+    <meta name="twitter:title" content="AI Recipe Finder | Turn Your Ingredients Into Amazing Meals" />
+    <meta name="twitter:description" content="Transform your kitchen ingredients into delicious recipes with AI. Get personalized cooking suggestions for any dietary preference!" />
+    <meta name="twitter:image" content="https://ai-recipe-finder.com/social-preview.png" />
+    <meta name="twitter:creator" content="@airecipefinder" />
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#6A4C93" />
+    <meta name="msapplication-TileColor" content="#6A4C93" />
+    <meta name="application-name" content="AI Recipe Finder" />
+    <meta name="apple-mobile-web-app-title" content="AI Recipe Finder" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <!-- Structured Data for Recipe Website -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "AI Recipe Finder",
+      "description": "AI-powered recipe generator that creates personalized recipes from your available ingredients using Google's Gemini AI",
+      "url": "https://ai-recipe-finder.com",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "AI Recipe Finder",
+        "url": "https://ai-recipe-finder.com"
+      },
+      "featureList": [
+        "AI-powered recipe generation",
+        "Ingredient-based recipe search",
+        "Dietary preference filtering (Vegetarian, Vegan, Keto, Gluten-Free, Low-Carb)",
+        "Cooking time and difficulty selection",
+        "Popular ingredient suggestions",
+        "Instant recipe creation"
+      ],
+      "screenshot": "https://ai-recipe-finder.com/social-preview.png"
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#FCFBF9',
+              'brand-secondary': '#FFC09F',
+              'brand-accent': '#A0E7E5',
+              'brand-dark': '#6A4C93',
+              'brand-text': '#4A4A4A',
+              'brand-title': '#8B5E3C',
+              'vegetarian': { 'bg': '#EBF9F1', 'border': '#B3E6C9', 'text': '#1E4620' },
+              'vegan': { 'bg': '#EBF9F1', 'border': '#B3E6C9', 'text': '#1E4620' },
+              'gluten-free': { 'bg': '#FFFBEB', 'border': '#FEEFC3', 'text': '#713F12' },
+              'keto': { 'bg': '#FEF2F2', 'border': '#FECACA', 'text': '#991B1B' },
+              'low-carb': { 'bg': '#EFF6FF', 'border': '#BFDBFE', 'text': '#1E40AF' },
+            },
+            fontFamily: {
+              sans: ['Roboto', '"Segoe UI"', 'sans-serif'],
+              serif: ['Georgia', 'serif'],
+              display: ['"Playfair Display"', 'serif'],
+            },
+            keyframes: {
+              'fade-in': {
+                '0%': { opacity: '0', transform: 'scale(0.9)' },
+                '100%': { opacity: '1', transform: 'scale(1)' },
+              },
+            },
+            animation: {
+              'fade-in': 'fade-in 0.2s ease-out',
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.19.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-brand-primary">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

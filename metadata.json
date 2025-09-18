@@ -1,0 +1,5 @@
+{
+  "name": "AI Recipe Finder",
+  "description": "Find delicious recipes from ingredients you already have! AI Recipe Finder uses Google's Gemini AI to generate creative meal ideas, reducing food waste and making cooking easy. Supports dietary preferences like vegetarian, vegan, and keto.",
+  "requestFramePermissions": []
+}
